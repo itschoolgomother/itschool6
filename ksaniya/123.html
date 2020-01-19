@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<textarea id="text"></textarea>
+	<button onclick="get()"> угадать</button>
+<script type="text/javascript">
+	var t = 0
+	var r = Math.random()*100;
+	r=Math.round(r)
+	function get(){
+	t+=1;
+	var value = document.getElementById('text').value;
+	if(value == r){alert('поздровляю, вы выиграли')}
+	else if (value<r){alert('число больше')}
+    else if (value>r){ alert('число менше')}
+    if (t==10){alert('ты проиграл')}
+	}
+</script>
+</body>
+</html>

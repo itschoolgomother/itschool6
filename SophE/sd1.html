@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>игра</title>
+</head>
+<body>
+	<textarea id="text"></textarea>
+	<button onclick="get()">Ок</button>
+	<script type="text/javascript">
+		var s = 0;
+		var number=Math.random()*100;
+		function get(){
+		var value = document.getElementById('text').value;
+		number = Math.round(number);
+		s++
+		if(number<value){alert('это число большое!')}
+		else if(number>value){alert('это число маленькое!')}
+			if(s>9){alert('Вы проиграли!')}
+			else if(number==value && s<9){alert('Вы угадали')}
+		}
+	</script>
+</body>
+</html>
