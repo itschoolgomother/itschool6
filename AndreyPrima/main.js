@@ -1,10 +1,10 @@
-
-var size = prompt("Size","10")
-var color = prompt("What do you want color","orange")
-getElementById("box");
-box.style.width = size+"px";
-box.style.height = size+"px";
-box.style.backgroundColor = color;
+//
+//var size = prompt("Size","10")
+//var color = prompt("What do you want color","orange")
+//getElementById("box");
+//box.style.width = size+"px";
+//box.style.height = size+"px";
+//box.style.backgroundColor = color;
 
 // var test = prompt("grn","1000");
 
