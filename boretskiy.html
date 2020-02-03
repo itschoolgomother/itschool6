@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script type="text/javascript">
+	var canvas = document.getElementById('canvas');
+	var ctx = canvas.getContext("2d");
+	canvas.width = 1200;
+	canvas.height = 1000;
+	var x = 50;
+	var y = 50;
+	for (var i = 0;i<25;i++) {
+		g()
+		function g() {
+			ctx.beginPath()
+			ctx.rect(x,y,50,50);
+			ctx.fill();
+			x += 75;
+			if (x>400) {
+				x=50; y+=75;
+}}
+	function krasniy() {
+		ctx.beginPath()
+			ctx.rect(x,y,50,50);
+			x += 75;
+			if (i<5) {
+			ctx.fillStyle = "red";
+				
+}
+}
+	}
+</script>
+<button onclick="krasniy()">Krasniy</button>
+</body>
+</html>
