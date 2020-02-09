@@ -1,0 +1,14 @@
+body{
+	background-color: rgb(211, 178, 139);
+
+}
+h1{
+	color:black;
+	text-align: center;
+    font-size:80px;
+}
+h1:hover{
+	color:white;
+	transform: rotate(90deg);
+}
+
