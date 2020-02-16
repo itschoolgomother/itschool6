@@ -24,5 +24,19 @@ transform: rotate(0deg);
 transform-origin: center bottom;
 
 }
+#line-h{
+width:  15px;
+height: 60px;
+background-color: black;
+position: absolute;
+left: 50%;
+top: 37%;
+transform: rotate(0deg);
+transform-origin:center bottom;
 
+
+
+
+
+}
 

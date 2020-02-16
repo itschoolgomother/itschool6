@@ -5,7 +5,7 @@ padding:0px;
 header{
 	width: 100%;
 	
-	background-color:green;
+	background-color:skyblue;
 }
 .con{
 	max-width: 1200px;
@@ -23,10 +23,36 @@ header{
 .head-right{
 	width: 50%;
 	min-height: 150px;
-
+	display: flex;
+ 	justify-content: center;
 }
 .head-left > h1{
 color: white;
 font-size: 40px;
 align-self: center; 
 }
+menu > li{
+ list-style: none;
+ display: inline;
+}
+li > a {
+	text-decoration: none;
+	color: royalblue;
+	margin-left: 30px;
+}
+menu{
+	align-self: center;
+}
+.content{
+width: 100%;
+min-height: 500px;
+background-color:#EA7AD7
+}
+
+
+
+
+
+
+
+

@@ -1,3 +1,20 @@
+body{
+	background-color: #008000;
+	animation: 5s changecolor infinite;
+}
+@keyframes changecolor{
+	0%{background-color:#008000; }
+	25%{background-color: #00ff00;}
+	50%{background-color:#008000; }
+	90%{background-color:#00ff66; }
+	100%{background-color: #008000;}
+}
+@keyframes fff{
+	from{transform: rotate(15deg);}
+	to{transform: rotate(35deg);}
+
+}
+
 .panda{
 	width: 200px;
 	height: 400px;
@@ -59,8 +76,8 @@ top: 130px;
  z-index: -1;
 }
 .armr{
-	width: 45px;
-	height: 95px;
+	width: 50px;
+	height: 100px;
 	background-color: #000;
 	border-radius: 50% 90% 80% 70%;
 	position: absolute;
@@ -75,7 +92,163 @@ top: 130px;
 	background-color: #000;
 	border-radius: 50% 90% 80% 70%;
 	position:absolute;
-	left:185px;
+	left:165px;
 	top: -20px;
-	transform: rotate(-140deg);
+	/*transform: rotate(30deg);*/
+	animation: 1s fff infinite;
+	 animation-direction: alternate; 
+	transform-origin: center bottom ; 
+}
+.earl{
+	width: 70px;
+	height: 70px;
+	background-color: #000;
+	border-radius: 90%;
+	position: absolute;
+	left: -10px;
+	top: -10px;
+}
+.earr{
+	width: 70px;
+	height: 70px;
+	background-color: #000;
+	border-radius: 90%;
+	position: absolute;
+	left: 105px;
+	top: -10px;
+}
+.eyel{
+	width: 45px;
+	height: 65px;
+	background-color: #000;
+	border-radius: 50% 90% 80% 70%;
+	position: absolute;
+	left: 17px;
+	top: 20px;
+	transform: rotate(-130deg);
+}
+.circle1l{
+	width: 40px;
+	height: 40px;
+	background-color: #FFF;
+	border-radius: 90%;
+	position: absolute;
+	left: 2px;
+	top: 25px;
+	z-index: -1;
+
+}
+.circle2l{
+	width: 25px;
+	height: 25px;
+	background-color: #0033CC;
+	border-radius: 90%;
+	position: absolute;
+	left: 5px;
+	top: 37px;
+}
+.circle3l{
+	width: 22px;
+	height: 22px;
+	background-color: #000;
+	border-radius: 90%;
+	position: absolute;
+	left: 8px;
+	top: 38px;
+}
+.circle4l{
+	width: 11px;
+	height: 11px;
+	background-color: #FFF;
+	border-radius: 90%;
+	position: absolute;
+	left: 20px;
+	top: 41px;
+}
+.eyer{
+	width: 45px;
+	height: 65px;
+	background-color: #000;
+	border-radius: 90% 50% 70% 80%;
+	position: absolute;
+	left: 90px;
+	top: 20px;
+	transform: rotate(130deg);
+}
+.circle1r{
+	width: 40px;
+	height: 40px;
+	background-color: #FFF;
+	border-radius: 90%;
+	position: absolute;
+	left: 4px;
+	top: 23px;
+}
+.circle2r{
+width: 25px;
+	height: 25px;
+	background-color: #0033CC;
+	border-radius: 90%;
+	position: absolute;
+	left: 14px;
+	top: 36px;
+
+}
+.circle3r{
+	width: 22px;
+	height: 22px;
+	background-color: #000;
+	border-radius: 90%;
+	position: absolute;
+	left: 15px;
+	top: 39px;
+}
+.circle4r{
+	width: 11px;
+	height: 11px;
+	background-color: #FFF;
+	border-radius: 90%;
+	position: absolute;
+	left: 23px;
+	top: 50px;
+}
+.nose{
+	width: 25px;
+	height: 18px;
+	background-color: #000;
+	border-radius: 90% 90% 90% 90%;
+	position: absolute;
+	z-index: 1;
+	left:65px;
+	top: 80px;
+}
+.n1{
+	width: 9px;
+	height: 9px;
+	background-color: #FFF;
+	border-radius: 90%;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+.mouse{
+	width: 15px;
+	height: 12px;
+	background-color: #FF0000;
+	border-radius: 90%;
+	position: absolute;
+	left: 70px;
+	z-index: 1;
+	top: 120px;
+	animation: .5s ms infinite;
+}
+@keyframes ms{
+	0%{width: 15px;
+	height: 12px;}
+	50%{width: 15px;
+		height: 17px;}
+	100%{
+		width: 15px;
+	height: 12px;
+	}
 }
