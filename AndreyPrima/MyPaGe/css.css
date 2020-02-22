@@ -1,0 +1,36 @@
+*{
+ margin: 0px;
+padding: 0px;
+}
+.container{
+max-width: 1200px;
+margin: 0 auto;
+}
+.title{
+width: 100%;
+min-height: 150px;
+background-color: salmon ;
+display: flex;
+justify-content: center;
+}
+
+.title > h2 {
+color:green;
+font-size: 35px;
+}
+.main{
+width: 100%;
+min-height: 500px;
+background-color: salmon;
+margin: top;
+display: flex;
+}
+
+.mainL{
+width: 40%;
+min-height: 500px;
+}
+.mainR{
+width: 60%;
+min-height: 500px;
+}
