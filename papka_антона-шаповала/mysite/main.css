@@ -30,6 +30,7 @@ header{
 color: black;
 font-size: 40px;
 align-self: center; 
+font-family: 'Faster One' ; 
 }
 menu > li{
  list-style: none;
@@ -70,3 +71,16 @@ padding:  10px 0px;
 
 
 }
+footer{
+width: 100%;
+min-height: 100px;
+background-color:ghostwhite;
+margin-top: 90px;
+}
+footer > div > p{
+color:black;
+text-align: center;
+line-height: 100px;
+}
+
+
