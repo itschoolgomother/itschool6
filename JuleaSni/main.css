@@ -1,0 +1,273 @@
+.panda{
+	width: 200px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.head{
+	width: 170px;
+	height: 169px; 
+	background-color: white;
+	border-radius: 70% 80% 70% 70%;
+	border: 3px black solid;
+	box-shadow: inset 17px 0px 3px 0px #f1f1f1;
+	position: absolute;
+	z-index: 2;
+}
+.body{ 
+	width: 170px;
+	height: 190px;
+	background-color: white;
+	border: 3px black solid;
+	border-radius: 90% 90% 70% 70%;
+	box-shadow: inset 12px -8px 3px 0px #e7e1e1;
+	position: absolute;
+	top: 150px;
+ }
+.eyel{
+	width: 40px;
+	height: 60px;
+	background-color: black;
+	border-radius: 80% 90% 90% 100%;
+	transform: rotate(55deg);
+	position: absolute;
+	left: 25px;
+	top: 30px;
+}
+.white{
+	width: 30px;
+	height: 30px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 3px;
+	top: 4px;
+}
+.bleu{
+	width: 25px;
+	height: 25px;
+	background-color: #318CD2;
+	border-radius: 50%;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+.black{
+	height: 19px;
+	width: 19px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 2px;
+	top: 2px;
+}
+.shine{
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: -2px;
+	top: 5px;
+}
+.eyer{
+	width: 40px;
+	height: 60px;
+	background-color: black;
+	border-radius: 80% 90% 90% 100%;
+	transform: rotate(-55deg);
+	position: absolute;
+	left: 100px;
+	top: 30px;
+}
+.whiteR{
+	transform: rotate(95deg);
+	position: absolute;
+	top: 4px;
+	left: 6px;
+}
+.nouse{
+	width: 33px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 90px;
+	left: 68px;
+}
+.min-nouse{
+	width: 11px;
+	height: 7px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 5px;
+}
+.mouth{
+	width: 20px;
+	height: 14px;
+	background-color: black;
+	border-radius: 90% 90% 50% 50%;
+	position: absolute;
+	top: 125px;
+	left: 73px;
+}
+.min-mouth{
+	width: 11px;
+	height: 6px;
+	background-color: red;
+	border-radius: 100% 100% 60% 60%;
+	position: absolute;
+	top: 8px;
+	left: 5px;
+}
+.earL{
+	width: 65px;
+	height: 65px;
+	background-color: black;
+	border-radius: 70% 80% 70% 70%;
+	position: absolute;
+	top: -10px;
+	left: -15px;
+	box-shadow: inset 8px 0px 3px 0px #222222;
+}
+.earR{
+	width: 65px;
+	height: 65px;
+	border-radius: 70% 70% 70% 80%;
+	background-color: black;
+	position: absolute;
+	top: -10px;
+	left: 115px;
+	box-shadow: inset 8px 0px 3px 0px #222222;
+}
+.legL{
+	width: 50px;
+	height: 80px;
+	border-radius: 40% 50% 40% 50%;
+	background-color: black;
+	position: absolute;
+	left: 20px;
+	top: 155px;
+	z-index: -1;
+	transform: rotate(12deg);
+	animation: legL2 2s infinite;
+}
+.legR{
+	width: 50px;
+	height: 80px;
+	border-radius: 50% 40% 50% 40%;
+	background-color: black;
+	position: absolute;
+	top: 155px;
+	left: 100px;
+	z-index: -1;
+	transform: rotate(-12deg);
+	animation: legR2 2s infinite;
+}
+.armL{
+	width: 40px;
+	height: 80px;
+	background-color: black;
+	border-radius: 40% 50% 40% 50%;
+	position: absolute; 
+	top: -4px;
+	left: -4px;
+	transform:rotate(15deg);
+	z-index: -1;
+}
+.armR{
+	width: 40px;
+	height: 80px;
+	background-color: black;
+	border-radius: 50% 40% 50% 40%;
+	position: absolute;
+	top:1px;
+	left: 140px;
+	transform: rotate(-50deg);
+	z-index: -1;
+}
+.armR2{
+	width: 40px;
+	height: 80px;
+	background-color: black;
+	border-radius: 50% 40% 50% 40%;
+	position: absolute;
+	top: -12px;
+	left: 155px;  
+	transform-origin: center bottom;
+	transform: rotate(40deg);
+	animation: armR22 5s infinite;
+}
+body{
+	background-color: blue;
+	animation: ccolor 10s infinite;
+}
+@keyframes ccolor{
+	0%{background-color: blue;}
+	40%{background-color: pink;}
+	80%{background-color: purple;}
+	100%{background-color: blue;}
+}
+.sky1,.sky2{
+	width: 250px;
+	height: 70px;
+	border-radius: 50% 80% 50% 80%;
+	background-color: rgb(173,216,230);
+	position: absolute;
+}
+.sky1{
+	left: 250px;
+	top: 40px;
+	animation: lefttop 20s infinite;
+}
+.sky2{ 
+	left: 800px;
+	top: 120px;
+	animation: lefttop2 25s infinite;
+ } 
+@keyframes lefttop{
+	0%{ left: 250px;background-color: rgb(204, 255, 255);}
+	50%{ left: 700px;background-color: rgb(102, 179, 255);}
+	100%{ left: 250px;background-color: rgb(204, 255, 255); }
+}
+@keyframes lefttop2{
+	0%{left: 800px; background-color: rgb(204, 204, 204); }
+	50%{ left: 300px; background-color: rgb(0, 102, 204); }
+	100%{left: 800px; background-color: rgb(204, 204, 204); }
+}
+@keyframes armR22{
+	0%{ transform: rotate(40deg); }
+	50%{transform: rotate(70deg);}
+	100%{ transform: rotate(40deg); }
+}
+@keyframes legL2{
+	0%{ transform: rotate(19deg); }
+	50%{ transform: rotate(2deg); }
+	100%{ transform: rotate(19deg); }
+}
+@keyframes legR2{
+	0%{ transform: rotate(-19deg); }
+	50%{ transform: rotate(-2deg); }
+	100%{ transform: rotate(-19deg);}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
