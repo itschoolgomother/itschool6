@@ -33,6 +33,7 @@ main{
 }
 .mainL,.mainR{
 	width: 50%;
+	min-height: 500px;
 }
 .mainL>img{
 	width: 100%;
@@ -83,4 +84,19 @@ menu{
 }
 menu>a:first-child{
 	margin-left: 0px;
+}
+footer>div>p>a{
+	color: white;
+}
+.text>p>a{
+	color: white;
+}
+.text>p>a:hover{
+	background-color: grey;
+	color: indigo;
+
+}
+footer>div>p>a:hover{
+	background-color: grey;
+	color: indigo;
 }
