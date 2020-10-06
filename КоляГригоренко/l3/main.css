@@ -31,6 +31,7 @@ header{
 	font-size: 40px; 
 	color: #F8F8FF;	
 	font-family: 'Oswald' ;
+	margin-left: 15px;
 }
 menu{
 	align-self: center;
@@ -38,7 +39,7 @@ menu{
 menu > li {
     list-style-type: none;
     display:inline;
-    margin-left: 15px;
+
     
 
 } 
@@ -84,9 +85,10 @@ footer > div > p{
 	text-align: center;
 	line-height: 100px;
 }
-@media(max-width: 900px){
-	header{
-		background-color: green;
+@media(max-width: 1000px){
+
+	.head-left>h1 {
+		margin-left: 15px;
 	}
 	.content{
 		display: block;
@@ -98,5 +100,25 @@ footer > div > p{
 	}
 	.mainR{
 		padding: 25px 0px;
+	}
+}
+
+@media(max-width: 500px){
+		header{
+		background-color: #00FFFF;
+	}
+	.head{
+		display: block;
+
+	}
+	.head-left,.head-right{
+		width: 100%;
+		justify-content: center;
+		min-height: 80px;
+	}
+	menu>li{
+	display:block;
+	padding: 5px,0px;
+	font-size: 20px;
 	}
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ничего</title>
+</head>
+<body>
+	<button onclick="rp()">r+
+</button>
+<button onclick="gm()">g-
+</button>
+<button onclick="bm()">b-
+</button>
+<button onclick="rm()">r-
+</button>
+<button onclick="gp()">g+
+</button>
+<button onclick="bp()">b+
+</button>
+	<button onclick="q()">рандом
+</button>
+<button onclick="f()">напиши цвет
+</button>
+<div id="kill"></div>
+<style type="text/css">
+	#kill{
+		
+		width: 500px;
+		height: 500px;
+        background-color: red;
+
+	}
+</style>
+<script type="text/javascript">
+	var b =0 
+	var r =0
+	var g =0
+	function f(){var color=prompt("ведите цвет") 
+	document.getElementById('kill').style.backgroundColor=color
+}
+function q(){
+	var r = Math.random()*255
+    var b = Math.random()*255
+    var g = Math.random()*255
+document.getElementById('kill').style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function rp (){
+r=r+1
+document.getElementById('kill').style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function rm(){
+r=r-1
+document.getElementById('kill').style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function gp(){
+g=g+1
+document.getElementById('kill').style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function gm(){
+g=g-1
+document.getElementById('kill').style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function bp(){
+b=b+1
+document.getElementById('kill').style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+function bm(){
+b=b-1
+document.getElementById('kill').style.backgroundColor="rgb("+r+","+g+","+b+")"
+}
+</script>
+</body>
+</html>

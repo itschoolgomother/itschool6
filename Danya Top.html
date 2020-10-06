@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script type="text/javascript">
+ var canvas = document.getElementById('canvas')
+ var ctx = canvas.getContext('2d')
+ canvas.width = window.innerWidth - 40;
+ canvas.height = window.innerHeight - 40;
+ var r = 50;
+ var s = 0;
+ var e = 7;
+ var rc = 0;
+
+ for (var i = 0; i < 1000; i++) {
+ 	ctx.beginPath()
+ 	r+=3
+ 	rc=Math.random()*255
+ 	gc=Math.random()*255
+ 	bc=Math.random()*255
+ 	s = Math.random()*7
+ 	e = Math.random()*7
+ ctx.arc(300,300,r,s,e)
+ ctx.strokeStyle = "rgb("+rc+","+gc+","+bc+")"
+ ctx.stroke() 
+ }
+ 
+</script>
+</body>
+</html>
