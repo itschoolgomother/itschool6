@@ -1,0 +1,23 @@
+table{
+	border: 2px solid lightgrey;
+	border-collapse: collapse;
+}
+td{
+	border: 2px solid lightgrey;
+	text-align: center;
+}	
+th{
+
+	border: 2px solid lightgrey;
+	background-color: red;
+	color: blue;	
+}
+.pink{
+	color: blue
+}
+.green{
+	background-color: blue
+}
+.black td{
+	border:2px solid black;
+}

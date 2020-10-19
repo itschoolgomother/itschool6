@@ -1,0 +1,20 @@
+td{
+	border: 3px solid black;
+	background-color: rgba(255, 0, 0, 1);
+}
+table{
+	border: 3px solid black;
+	border-collapse: collapse;
+}
+.or1{
+	background-image: radial-gradient(at right bottom, blue, red);
+}
+.or2{
+	background-image: radial-gradient(at left bottom, blue, red);
+}
+.or3{
+	background-image: radial-gradient(at right top, blue, red);
+}
+.or4{
+	background-image: radial-gradient(at left top, blue, red);
+}
