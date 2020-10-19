@@ -1,0 +1,27 @@
+h1{
+	color: red;
+	font-size: 56px;
+	text-decoration: underline;
+	text-transform: lowercase;
+	text-shadow: 1px 1px 1px bluez;
+
+
+}
+body{
+	background-color: rgb(62, 53, 14);
+}
+div{
+	width: 60px;
+	height: 65px;
+	background-color: rgb(5,87,5);
+	border: 1px dashed black;
+border-radius:34%;
+background-image: linear-gradient(to bottom right,red, black); 
+}
+div + div{
+	background-image: radial-gradient{ at center, red,blue };
+} 
+div{
+	position: absolute;
+	left: 300px;
+}

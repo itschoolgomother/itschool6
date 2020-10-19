@@ -1,0 +1,12 @@
+td{
+	border: 1px solid black;
+}
+th{
+	border: 1px solid black;
+}
+.pink td{
+	border: 1px solid red;
+}
+td + td{
+	color: red;
+}
