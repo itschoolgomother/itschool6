@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<div id="block"></div>
+<style type="text/css">
+	body{
+		background-color: lightgreen
+		#block{
+			width: 100px;
+			height: 100px;
+			background-color: black;
+		}
+	}
+</style>
+</body>
+</html>
