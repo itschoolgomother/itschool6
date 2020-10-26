@@ -1,0 +1,10 @@
+.box{
+	height: 100px; /*высота */
+	width: 250px; /*ширина */
+	border:1px solid black;/*обводка: толщинаЛинии типЛинии(сплошная) цвет;*/
+	background-color: red;/*цвет фона*/
+	margin: 100px 0px 0px 100px;
+}	
+h1{
+	padding: 10px 0px 0px 45px;/*внутренний отступ: верх право низ лево*/
+}

@@ -1,0 +1,19 @@
+h1{
+	text-shadow: infinite;
+  position: absolute;
+  left: 45%;
+  top: 200px;
+  animation-name: vave;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes vave{
+	20%{color: white;}
+	40%{font-size: 100px;}
+	60%{transform: rotate(360deg);}
+	80%{text-shadow: 5px 0px 1px purple;}
+	100%{text-decoration: line-through;}
+}
+body{
+	background-color: grey;
+}

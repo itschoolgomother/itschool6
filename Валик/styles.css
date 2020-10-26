@@ -1,0 +1,27 @@
+h1{
+	color: green;
+font-size: 50px;
+animation-name: textt;
+animation-duration: 5s;
+animation-iteration-count: 1;
+position: absolute;
+
+}
+@keyframes textt{
+	20%{font-size: 250px;}
+	40%{color: red;}
+	60%{color: purple;}
+	80%{text-shadow: 25px 25px 10px black}
+}
+
+img{
+	animation-name: happy_halkoween;
+	animation-duration: 5s;
+	position: absolute;
+	left: 0px;
+	top:0px;
+	z-index: -1;
+}
+@keyframes happy_halkoween{
+	20%{top:0px;left: 0px; transform:rotate(360deg);}
+}
