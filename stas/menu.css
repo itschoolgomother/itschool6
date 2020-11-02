@@ -1,0 +1,21 @@
+.main-menu{
+	list-style-type: none;
+	width: 240px;
+	padding: 0px;
+	margin: 0px;
+
+}
+.main-menu a{
+	text-decoration: none;
+	border: 1px solid red;
+	font-size: 30px;
+	display: block;
+	padding: 10px;
+	margin-bottom: -2px;
+	background-color: lightgrey;
+	color: black;
+}
+.main-menu a:hover{
+	color: white;
+	background-color: black;
+}
