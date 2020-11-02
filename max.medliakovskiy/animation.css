@@ -1,0 +1,27 @@
+h1{
+	animation-name: anime;
+	animation-duration: 10s;
+	animation-iteration-count: 2;/*infinite*/
+}
+ @keyframes anime{
+ 	10%{font-size: 100px;}
+ 	20%{color: blue;}
+ 	30%{text-decoration: underline;}
+ 	40%{text-shadow: 5px 5px 0px red;}
+ }
+ .anime{
+ 	width: 305px;
+ 	height: 205px;
+ 	border: 10px solid blue;
+ 	animation-name: home;
+ 	animation-duration: 4s;
+ 	animation-iteration-count: 2;
+}
+@keyframes home{
+	10%{background-color: green; border:20px dotted yellow;}
+	20%{background-color: green; border:20px dashed yellow;}
+	30%{bottom: 0px;}
+	40%{border-radius: 5%; box-shadow: 310px 5px 0px 5px violet;}
+	50%{transform: rotate(180deg);}
+	60%{width: 610px; height: 410px;}
+}

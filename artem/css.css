@@ -1,69 +1,41 @@
 h1{
-color: red;
-font-size: 100px;	
-}
-h1:hover{
-color: blue;
-font-size: 111px;
-}
-.box{
-list-style-type: square;
-}/*
-div{
-	width: 100px;	
-	height: 100px;
-	background-color: rgba(140, 100, 225, 1);
-	border: 9px dashed black;
-	border-radius: 45%;
-	background-image: radial-gradient( gold, white );
-}*/
-body{
-	/*background-image: linear-gradient(to right bottom, red, blue, gold);*/
-background-repeat: no-repeat;
-height: 1000px;
-background-color: black;
-}
-table{
-	border: 2px solid lightgrey;
-	border-collapse: collapse;
-}
-td{
-	border: 2px solid lightgrey;
-	text-align: center;	
-}
-th{
-	border: 2px solid lightgrey;
-	background-color: darkgrey;
-	color: white;
-}
-.pink{
-	background-color: pink;
-}
-.green{
-	background-color: green;
-}
-.pos{
-	width: 400px;
-	height: 300px;
-	border: 2px solid #ab2053;
-border-radius: 5%;
+	animation-name: go;
+	animation-duration: 20s;
 	position: absolute;
-	bottom: : 30px;
-	right: 400px;
-	box-shadow: -300px 0px 3px 0px red,
-	0px 300px 3px 0px blue,
-	250px 50px 3px 0px green,
-	0px 0px 0px 0px black;
-} 
-span{
-	font-size: 220px;
-	color: white;
-	text-shadow: 5px 50px 2px red,
-	5px 50px 2px green,
-	5px 50px 2px gold;
 }
-.odin{
-	text-shadow: -5px -50px 2px red,
-	-5px 50px 2px green,
-	-5px 50px 2px gold;
+@keyframes go{
+	10%{color: red;}
+	20%{font-size: 100px;}
+	30%{text-decoration: line-through; color: blue;}
+	40%{text-shadow: 20px 30px 0px black;}
+	50%{top: 300px; left: 500px;}
+	60%{transform: rotate(1000000000000000000deg);}
+}
+body{
+	animation-name: gogo;
+	animation-duration: 0.2s;
+	animation-iteration-count: infinite;
+}
+@keyframes gogo{
+	10%{background-color: red;}
+	20%{background-color: cyan;}
+	30%{background-color: blue;}
+	40%{background-color: green;}
+	50%{background-color: gold;}
+	60%{background-color: darkblue;}
+}
+div{
+	animation-name: gogogo;
+	animation-duration: 5s;
+	position: absolute;
+	width: 300px;
+	height: 200px;
+	border: 2px solid black;
+}
+@keyframes gogogo{
+	10%{border-radius: 80%;}
+	20%{background-image: radial-gradient(red, blue);}
+	30%{border: 5px dashed green;}
+	40%{width: 60000px; height: 8000px: }
+	50%{transform: rotate(10000deg)}
 }
