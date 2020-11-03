@@ -1,0 +1,63 @@
+p {
+	color: black;
+}
+
+#a {
+	background-color: red;
+}
+
+#b {
+	background-color: orange;
+}
+#c {
+	background-color: yellow;
+}
+#d {
+	background-color: green;
+}
+#e {
+	background-color: cyan;
+}
+#f {
+	background-color: blue;
+}
+#g {
+	background-color: violet;
+}
+#cent {
+	text-align: center;
+}
+#k {
+	background-color: pink;
+	margin-left: 45%;
+	margin-right: 40%;
+	height: 60px;
+	width: 100px;
+	animation: jump 5s infinite;
+}
+}
+#l {
+		background-color: cyan;
+	margin-left: 45%;
+	margin-right: 40%;
+	height: 60px;
+	width: 100px;
+}
+@keyframes jump {
+	100% {transform: rotate(360deg);}
+}
+#z {
+	animation: jump 5s infinite;
+}
+@keyframes move {
+	0%{top: 150px;left: 150px;}
+	100%{top: 400px;left: 250px; transform: rotate(180deg); background-color: green;}
+
+}
+#y {
+	height: 60px;
+	width: 100px;
+	background: cyan;
+	animation: move 5s infinite;
+ 	position: relative;
+}

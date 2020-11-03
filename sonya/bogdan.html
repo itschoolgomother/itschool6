@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>canvas</title>
+	<script type="text/javascript">
+		window.onload = function(){
+			var drawingCanvas = document.getElementById("smile");
+		context.strokeStyle = "blue";
+context.fillStyle = "white";
+context.beginPath();
+context.arc(116,90,10,0,Math.PI*2,true);
+context.closePath();
+context.stroke();
+context.fill();
+	if(drawingCanvas && drawingCanvas.getContext){
+				var context = drawingCanvas.getContext("2d");
+context.strokeStyle = "blue";
+context.fillStyle = "red";
+context.beginPath();
+context.arc(100,100,50,0,Math.PI*2,true);
+context.closePath();
+context.stroke();
+context.fill();
+
+context.strokeStyle = "blue";
+context.fillStyle = "white";
+context.beginPath();
+context.arc(84,90,8,0,Math.PI*2,true);
+context.closePath();
+context.stroke();
+context.fill();
+
+context.strokeStyle = "blue";
+context.fillStyle = "white";
+context.beginPath();
+context.arc(116,90,8,0,Math.PI*2,true);
+context.closePath();
+context.stroke();
+context.fill();
+
+
+context.strokeStyle = "blue";
+context.fillStyle = "green";
+context.beginPath();
+context.arc(100,110,10,0,Math.PI,false);
+context.closePath();
+context.stroke();
+context.fill();
+
+			}
+		}
+	</script>
+</head>
+<body>
+<canvas id="smile" width="200" height="200"></canvas>
+</body>
+</html>
