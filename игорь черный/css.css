@@ -1,0 +1,25 @@
+div{
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	border: 1px dashed green;
+	border-radius: 10px;
+	background-image: linear-gradient(to right top, red,blue,orange);
+	}
+	.class1{
+		font-size: 30px;
+		color: orange;
+		text-decoration :line-through;
+		/*overline, line-through, underline*/
+
+	}  
+	.class1:hover{
+		color: red;
+
+	}
+	div:hover{
+		border-radius: 20px;
+		background-image: radial-gradient(red,blue,orange,red,blue,orange,black);
+		height: 200px;
+		width: 200px;		
+	}
