@@ -1,12 +1,12 @@
-function meat (N, C) {
-	let meat = (12-C)/N
-	return Math.floor(meat)
+document.write("пипипулька");
+let str ="s1ba1v1"
+function answer() {
+let odin = 0;
+
+for(let i = 0 ; i <= str.length; i++){
+	if(1 == str[i]){
+	odin += 1;
+	}
 }
-
-let num = 5;
-console.log("num")
-
-function getExchange (vidvaluti, kurs, suma){
-let kolvo = kurs*suma;
- return `Ми Вам дадим $(kolvo) $(vidvaluti)` 
+document.write(odin);
 }
