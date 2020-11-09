@@ -1,0 +1,9 @@
+li{
+color:red;
+}
+
+li:hover{
+color:blue;
+text-decoration:line-through;
+ font-size:100px;
+}
