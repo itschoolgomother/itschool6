@@ -11,6 +11,22 @@
 	    	top: 50px;
 	    	left: 50px;
 	    	box-shadow: 0 0 20px #b9ac13;}
+	    	.planet1{width: 150px;
+	    	height: 150px;
+	    	border-radius: 50%;
+	    	background-color: #27dcdc;
+	    	position: absolute;
+	    	bottom: 50px;
+	    	right:50px;
+	    	box-shadow: 0 0 30px #ad22af;}
+	    	.planet2{width: 50px;
+	    	height: 50px;
+	    	border-radius: 50%;
+	    	background-color: #e2dd32;
+	    	position: absolute;
+	    	bottom: 150px;
+	    	right:350px;
+	    	box-shadow: 0 0 30px #42d628;}
 	    	.orbit{
 	    		width: 142px;
     height: 70px;
@@ -69,13 +85,34 @@
 	    		50%{box-shadow: 0px 0px 10px  white;}
 	    		100%{box-shadow: 0px 0px 50px  white;}
 	    	}
+	    	.sputnik img{
+	    		width: 100px;
+	    		height: auto;
+	    		position: absolute;
+	    		bottom: 10px;
+	    		left: 10px;
+	    		animation-name: bmove;
+	    		animation-duration:5s;
+    animation-iteration-count: infinite;
+    transition-timing-function: ease-in;
+    transform: rotate(45deg);
+	    	}
+	    	@keyframes bmove{
+	    		1%{bottom: 10px;
+	    		left: 10px;}
+	    		100%{bottom: 800px;
+	    		left: 1000px;}
+	    	}
 	</style>
 </head>
 <body>
 	<div class="planet"></div>
+	<div class="planet1"></div>
+	<div class="planet2"></div>
 	<div class="orbit"></div>
 	<div class="star"></div>
 	<div class="star1"></div>
 	<div class="star2"></div>
+	<div class="sputnik"><img src="kisspng-sputnik-1-satellite-clip-art-satelite-5ac89a366cd789.5986766615230961184458.png"></div>
 </body>
 </html>
