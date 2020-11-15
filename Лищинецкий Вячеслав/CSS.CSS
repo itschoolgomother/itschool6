@@ -1,0 +1,16 @@
+h1{
+	background-color: blue;
+	color: red; 
+	text-decoration: line-through;
+}
+h2{
+	color: blue;
+	font-size: 10pt
+}
+body{
+	/*background-color: purple;*/
+	/*background-image: linear-gradient(to bottom left, blue, red);*/
+	background-image: radial-gradient(at center, blue, red,blue);
+	background-repeat: no-repeat;
+	height: 720px
+}
