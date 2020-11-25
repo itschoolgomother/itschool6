@@ -1,0 +1,44 @@
+.hero{
+	width: 200px;
+	height: 200px;
+	border:1px solid black;
+	position: absolute;
+}
+.head{
+	height: 196px;
+	width: 196px;
+	border: 2px solid pink;
+	background-color: pink;
+	border-radius: 50%;
+	position: absolute;
+}
+.eye{
+	height: 50px;
+	width: 50px;
+	border:10px solid white;
+	border-radius: 50%;
+	position: absolute;
+	top: 40px;
+	left: 30px;
+}
+.eye + .eye{
+	left:95px;
+}
+.mouth{
+	height: 30px;
+	width: 100px;
+	border:1px solid #dc8b8b;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 160px;
+	left: 50px;
+}
+.ear{
+	border:20px solid transparent;
+	border-bottom:20px solid pink;
+}
+.mouth + .mouth{
+	top: 120px;
+	background-color: #bd7eaa;
+}
