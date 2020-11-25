@@ -1,0 +1,63 @@
+#hero{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+.head{
+	width: 196px;
+	height: 196px;
+	border: 2px solid black;
+	background-color: pink;
+	border-radius: 50%;
+	position: absolute;
+}
+.eys{
+	width: 40px;
+	height: 40px;
+	border: 5px solid black;
+	background-color: black;
+	border-radius: 100%;
+	position: absolute;
+	left: 50px;
+	top: 40px; 
+
+}
+.eys + .eys{
+	left: 120px
+}
+.nose{
+	width: 70px;
+	height: 50px;
+	border: 5px solid black;
+	background-color: pink;
+	border-radius: 100%;
+	position: absolute;
+	left: 70px;
+	top: 100px; 
+}
+.rog{
+	position: absolute;
+	border:15px solid transparent;
+	border-bottom: 50px solid red;
+	left: 95px;
+	top: -20px;  
+}
+.smile{
+ width: 50px;
+	height: 40px;
+	border-bottom: 20px solid black;
+	border-radius: 50%;
+	position: absolute;
+	left:85px;
+	top: 130px;
+	
+}
+.coin{
+	width: 60px;
+	height: 60px;
+	border: 2px solid black;
+	background-color: gold;
+	border-radius: 50%;
+	position: absolute;
+
+}

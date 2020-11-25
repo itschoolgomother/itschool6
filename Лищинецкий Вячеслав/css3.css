@@ -1,0 +1,21 @@
+.main-menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.main-menu a{
+	text-decoration: none;
+	font-size: 40px;
+	color: orange;
+	width: 400px;
+	background-color: black;
+	display: block;
+	border: 1px solid orange;
+	margin-bottom: -1px;
+	padding: 10px;
+}
+.main-menu a:hover{
+	text-decoration: underline;
+	color: teal;
+	background-color: orange;
+}
