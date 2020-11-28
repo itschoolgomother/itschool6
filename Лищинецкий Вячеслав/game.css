@@ -1,0 +1,57 @@
+#hero{
+	width: 20px;
+	height: 76px;
+	position: absolute;
+}
+.head{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	position: absolute;
+
+	border-radius: 50%;
+}
+.body{
+	width: 20px;
+	height: 40px;
+	background-color: red;
+	position: absolute;
+
+	border-radius: 50%;
+	top: 20px;
+}
+.arm{
+	width: 10px;
+	height: 20px;
+	border:1px solid black;
+	background-color: red;
+	position: absolute;
+
+	border-radius: 50%;
+	top: 20px;
+}
+.arm + .arm{
+	left: 10px;
+}
+.leg{
+	width: 10px;
+	height: 20px;
+	border: 1px solid black;
+	background-color: red;
+	position: absolute;
+	border-radius: 50%;
+	top: 55px;
+	z-index: -1;
+}
+.leg + .leg{
+	left: 10px;
+}
+.smile{
+	width: 10px;
+	height: 10px;
+	border-bottom: 1px solid black;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: 5px;
+}
