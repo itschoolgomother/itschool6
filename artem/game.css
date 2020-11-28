@@ -1,12 +1,9 @@
-.hero{
-	width: 200px;
-	height: 200px;
-	border: 1px solid black;
+
+img{
+	width: 150px;
 }
-.head{
-	width: 190px;
-	height: 190px;
-	border: 5px solid black;
-	border-radius: 50%;
-	background-color: pink;
+#hero{
+	width: 300px;
+	position: absolute;
+	left: 10px;
 }
