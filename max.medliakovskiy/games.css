@@ -1,20 +1,97 @@
 .impostor{
 	width:200px;
 	height:200px;
-	border:1px solid black;
+	position: absolute;
+	animation: anime 4s 10 linear;
+}/*
+@keyframes anime{
+	from{left:0px;}
+	to{left:200px;}
+}*/
+span{
+	color: rgba(255,255,5,0);
+	animation: crewmate 5s 5 linear;
+	z-index: 1;
 	position: absolute;
 }
 .mask{
 	border-radius:10%;
 	width: 15px;
 	height: 11px;
-	background-color: red;
+	background-color: blue;
 	border: 2px solid black;
 	position: absolute;
 left: 75px;
 }
-.body{
-	height: 20px;
-	width: 14px;
+.leg1{
 	border: 1px solid black;
+	width: 8px;
+	height: 11px;
+	position: absolute;
+	left: 74px;
+	top: 29px;
+	background-color: blue;
+}
+.leg2{
+	border: 1px solid black;
+	width: 8px;
+	height: 11px;
+	position: absolute;
+	left: 83px;
+	top: 29px;
+	background-color: blue;
+}
+.body{
+	height: 18px;
+	width: 13px;
+	border: 1px solid black;
+	background-color: blue;
+	position: absolute;
+	left: 77px;
+	top: 15px;
+}
+.glasses{
+	border-radius: 10%;
+	width: 11px;
+	height: 5.5px;
+	background-color: white;
+	position: absolute;
+	left: 77.5px;
+	top: 4px;
+	border: 1px solid black;
+}
+.screen{
+	border-radius: 10%;
+	width: 8px;
+	height: 7px;
+	background-color: black;
+	position: absolute;
+	left:10px;
+	top: 10px;
+}
+.I-pad{
+	border-radius: 10%;
+	width: 10px;
+	height: 9px;
+	background-color: grey;
+	border: 1px solid black;
+}
+body{
+	background-color: grey;
+}
+.point{
+	border: 1px solid black;
+	width: 15px;
+	height: 20px;
+	background-color: lightblue;
+}
+.fleshka{
+	border:1px solid black;
+	width:11px;
+	height: 5px;
+	background-color: yellow;
+	position: absolute;
+	top: 34px;
+	left: 10px;
+
 }
