@@ -2,16 +2,34 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="geme.css">
-	<title></title>
+	<title>saske</title>
 </head>
 <body>
-	<div id="hero"></div>
+	<div id="hero">
 	<div class="head"></div>
 	<div class="eys"></div>
 	<div class="eys"></div>
-	<biv class="nose"></biv>
-	<biv class="rog"></biv>
-	<biv class="smile"></biv>
-<biv class="coin"><biv/>	
+	<div class="nose"></div>
+	<div class="rog"></div>
+	<div class="smile"></div>
+</div>
+<div class="coin"></div>	
+<img src="coin.png" width="200">
+<script type="text/javascript">
+	let hero = document.getElementById('hero');
+	let  a=50;
+	let b='50';
+document.addEventListener('keydown', move);    
+	function move(e){
+		if (e.keyCode==65)
+			hero.style.left="100px";
+	}
+	console.log('a+b');
+	if (a === b) {
+		console.log('PRAVDA');
+	}else{
+		console.log('LOZH');
+	}
+</script>
 </body>
 </html>
