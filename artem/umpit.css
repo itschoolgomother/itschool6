@@ -1,0 +1,12 @@
+input[type="password"] {
+	background-color: #f2dede;
+}
+input[type="password"]:hover{
+	background-color: grey;
+}
+input[type="password"]:active{
+	background-color: white;
+}
+input[type="submit"] {
+	background-color: red;
+}

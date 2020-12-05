@@ -1,0 +1,14 @@
+input[type="password"]{
+	background-color: red;
+	color: white;
+}
+input[type="password"]:hover{
+	background-color: green;
+	color: white;
+}
+input[type="password"]:active{
+	background-color: black;
+	color: white;
+}input[type="checkbox"]{
+cursor: no-drop;
+}
