@@ -8,45 +8,29 @@
 <script type="text/javascript">
 	let cnv = document.getElementById('myCanvas');
 	let ctx = cnv.getContext('2d')
-    /*let r = 50;
-    let rGrow = 1;*/
-    let t = 100;
-    let tGrow = 1;
-
-
-	/*function draw() {
-	ctx.beginPath();
-	ctx.clearRect(0, 0, cnv.width, cnv.height);
-	ctx.arc(300, 200, r, 0, Math.PI*2,false);
-	ctx.fillStyle = "red";
-	ctx.fill();
-	ctx.closePath();
-	r+=rGrow;
-	if(r == 100){
-	rGrow = -rGrow;
-	} else if(r <= 0){
-		rGrow = -rGrow;
-	}
-}
-	setInterval(draw, 15);*/
-
-
+		let x1 = 200;
+		let y1 = 200;
+		let dx = 1;
 
 	function DBR(){
-		ctx.beginPath();
-        ctx.rect(50, 50, 100, 100)
-        ctx.fillStyle ='Green';
-        ctx.fill(); 
-        ctx.rotate(45 * Math.PI / 180)
-		ctx.closePath();
-	    t += tGrow;
-	    if(t == 200){
-	    	tGrow = -tGrow;
-	    }else if(t<= 0) {
-	    	tGrow = -tGrow;
-	    }
+ctx.beginPath();
+ctx.clearRect(0, 0, cnv.width, cnv.height);
+ctx.font = "44px serif";
+ctx.fillText("serega sherif", 100, 100)
+ctx.arc(x1, y1, 30, 0, Math.PI*2, false);
+ctx.fillStyle = "yellow";
+ctx.fill();
+ctx.closePath();
+x1+=dx;
+y1+=dx;
+if(x1+30>=cnv.width || x1-30 <= 0){
+dx = -dx;
+}
+if(y1+30 >= cnv.height || y1-30 <= 0){
+	dx = -dx;
+}
 	}
-	setInterval(DBR, 10)
+	setInterval(DBR, 1);
 </script>
 <style type="text/css">
 	canvas{

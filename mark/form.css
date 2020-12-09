@@ -1,0 +1,13 @@
+input[type="text"]{
+	color: blue;
+	background-color: red;
+	text-decoration-color: underline;
+
+}
+input[type="password"]:hover{
+	background-color: red;
+	inputpassword
+}
+input[type="checkbox"]:hover{
+	cursor: help;
+}
